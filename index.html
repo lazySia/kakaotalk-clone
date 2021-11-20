@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to RoboTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span><code>No Service</code></span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span><code>18:43</code></span>
+      </div>
+      <div class="status-bar__column">
+        <span><code>100%</code></span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to RoboTalk</h1>
+      <p class="welcome-header__text">
+        <span>If you have a</span>
+        <span>&lt;Robo Account&gt;,</span>
+      </p>
+      <p class="welcome-header__text">log in with your email or phone number.</p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" type="text" placeholder="&lt;Email or phone number&gt;" />
+      <input name="password" required type="password" placeholder="&lt;Password&gt;" />
+      <input type="submit" value="Log in" />
+      <a href="#">Find Robo Account of Password</a>
+    </form>
+    <div id="no-mobile">
+      <span>Your screen is too big T.T</span>
+    </div>
+    <div id="no-landscape">
+      <i class="fas fa-robot"></i>
+      <span>Please rotate your phone !</span>
+    </div>
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+  </body>
+</html>

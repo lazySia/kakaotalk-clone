@@ -1,0 +1,74 @@
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.welcome-header__text {
+  opacity: 0.7;
+  font-size: 13px;
+  color: greenyellow;
+}
+
+.welcome-header__text span:first-child {
+  color: sandybrown;
+}
+
+.welcome-header__text span:last-child {
+  color: indianred;
+}
+
+#login-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 30px;
+}
+
+#login-form input {
+  background-color: var(--main-color);
+  padding: 15px 0px;
+  border: none;
+  font-size: 18px;
+  margin-bottom: 25px;
+  font-family: "Source Code Pro", monospace;
+}
+
+#login-form input:not([type="submit"]) {
+  border-bottom: var(--main-border);
+  color: white;
+  font-weight: 300;
+  font-size: 15px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+#login-form input::placeholder {
+  color: white;
+  font-weight: 300;
+  font-size: 15px;
+}
+
+#login-form input:focus {
+  border-color: var(--main-color);
+}
+
+#login-form input[type="submit"] {
+  background-color: white;
+  color: var(--main-color);
+  cursor: pointer;
+  padding: 15px 0px;
+  border-radius: 5px;
+}
+
+#login-form a {
+  text-align: center;
+  text-decoration: none;
+  color: var(--sub-color);
+  font-size: 13px;
+}

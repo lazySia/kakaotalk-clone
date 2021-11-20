@@ -1,0 +1,13 @@
+:root {
+  --yellow: #fae100;
+  --main-color: #253237;
+  --sub-color: #3e5054;
+  --horizontal-space: 15px;
+  /* --main-border: 1px solid rgba(255, 255, 255, 0.2); */
+  --main-border: 1px solid #3e5054;
+  --gray-1: rgba(0, 0, 0, 0.1);
+  --gray-2: rgba(0, 0, 0, 0.2);
+  --gray-3: rgba(0, 0, 0, 0.3);
+  --gray-4: rgba(0, 0, 0, 0.4);
+  --gray-5: rgba(0, 0, 0, 0.5);
+}
